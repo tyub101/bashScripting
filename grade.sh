@@ -9,6 +9,4 @@ elif [ "$note" -ge 12 ] ; then
     echo "assez bien "
 elif [ "$note" -ge 10 ] ; then
     echo "assez bien "
-else
-    echo "insuffisant"
 fi
