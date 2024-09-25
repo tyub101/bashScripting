@@ -1,4 +1,4 @@
-host="www.google.com"
+host="google.com"
 ping -c 1 $host
 if [ "$?" -eq "0" ]
 then 
