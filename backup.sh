@@ -8,7 +8,7 @@ function backup_file(){
  fi
 }
 backup_file /etc/hosts
- if [ "$0" -eq 0 ]
- then 
+if [ "$0" -eq 0 ]
+then 
    echo " Backup Succeded !"
 fi
